@@ -81,7 +81,7 @@ Desarrollar LUMÉ, una tienda online de velas aromáticas que permita a los usua
 
 ### 2. ¿Qué cambió y por qué?
 * **Menú de navegación principal:** Se ajustaron los accesos directos en el menú superior para asegurar una navegación limpia y directa entre *Inicio*, *Nosotros* (o Contacto) y el *Blog*, facilitando la experiencia del usuario.
-* **Optimización visual y plugins:** Se instalaron y configuraron los plugins esenciales definidos en la fase de planificación (*Yoast SEO*, *Contact Form 7*, *MC4WP* y *AddToAny*) para asegurar las funcionalidades de marketing y analítica básica sin sobrecargar el rendimiento del sitio.
+* **Optimización visual y plugins:** Se instalaron y configuraron los plugins esenciales definidos en la fase de planificación para asegurar las funcionalidades de marketing y analítica básica sin sobrecargar el rendimiento del sitio.
 
 ### 3. Decisión: Continuar o Pivotear
 * **Decisión tomada:** **Continuar** con el plan establecido.
