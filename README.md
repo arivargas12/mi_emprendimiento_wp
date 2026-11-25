@@ -9,14 +9,17 @@
 
 ## Contexto de la web
 
-(3 a 5 líneas: qué es tu emprendimiento, a quién le vende, qué problema resuelve el sitio y qué quieres que haga la persona cuando llega. Apóyate en tu proto-persona y tu brief del Parcial 02.)
+LUMÉ es un emprendimiento de velas aromáticas bonitas y de buena calidad para decorar, relajarse y crear ambientes acogedores. Su público principal son jóvenes como Catalina, una estudiante universitaria que busca bienestar, aromas agradables y regalos especiales. El sitio permite conocer la marca, sus velas, aromas y diseños desde el celular. También busca entregar una experiencia cálida y sencilla, facilitar el contacto y motivar a los visitantes a seguir a LUMÉ en redes sociales.
+
 
 ## Mi tema
 
-Marca una opción y borra la otra sección de instrucciones.
+Tema descargado: Twenty Twenty-Five
 
-- [ ] **Tema propio:** `(nombre del tema)`
-- [ ] **Tema descargado:** `(nombre del tema)` · (enlace a su ficha)
+- Tipo: tema de bloques.
+- Versión de WordPress utilizada: versión 7.1.5.
+- Plugins que necesita: Contact Form 7.
+- Licencia: gratuita, GPL.
 
 ---
 
