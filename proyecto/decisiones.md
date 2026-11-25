@@ -10,6 +10,12 @@
 | MC4WP: Mailchimp for WordPress | Permite recopilar correos electrónicos para enviar novedades, promociones y el descuento de bienvenida del 10%. | Gratis. Permite conectar WordPress con Mailchimp y crear formularios de suscripción. Mailchimp tiene un plan gratuito limitado. | 7.1.4 | Sí. Se puede integrar mediante bloques, códigos cortos o plantillas. | https://wordpress.org/plugins/mailchimp-for-wp/ |
 | AddToAny Share Buttons | Permite compartir los artículos del blog mediante WhatsApp y otras redes sociales. También permite agregar botones para seguir a LUMÉ en Instagram. | Gratis. Incluye botones para compartir contenido, enlaces a redes sociales y opciones de personalización. | 7.0.8 | Sí. Permite integrarse mediante códigos cortos y widgets en temas propios. | https://wordpress.org/plugins/add-to-any/ |
 | Akismet Anti-spam | Filtra comentarios no deseados y ayuda a evitar el spam en los artículos del blog. | El plugin se descarga gratis. El uso gratuito está destinado a sitios personales sin actividad comercial. Para LUMÉ se necesita un plan comercial de pago. | 7.1.4 | Sí. Funciona con el sistema de comentarios de WordPress. | https://wordpress.org/plugins/akismet/ |
+## Plugins instalados actualmente
+
+- Contact Form 7, versión 6.2.6.
+- Loginizer, versión 2.1.2.
+- Loginizer Pro, versión 2.1.2.
+- W3 Total Cache, versión 2.11.0.
 
 ## 2. PÁGINAS DE LA FASE 1
 
