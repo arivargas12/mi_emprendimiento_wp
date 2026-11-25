@@ -4,8 +4,8 @@
 
 - **Sitio en producción:** https://lume.infinityfree.me
 - **Prototipo en Stitch:** https://stitch.google.com/projects/5380580207788885438
-- **Repo del Parcial 02:** (enlace a `mi-emprendimiento`)
-- **Autor/a:** (nombre y sección)
+- **Repo del Parcial 02:** https://github.com/arivargas12/mi-emprendimiento.git
+- **Autor/a:** Arianna Vargas
 
 ## Contexto de la web
 
