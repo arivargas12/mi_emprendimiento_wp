@@ -21,23 +21,6 @@ Tema descargado: Twenty Twenty-Five
 - Plugins que necesita: Contact Form 7.
 - Licencia: gratuita, GPL.
 
----
-
-## Instrucciones si uso un tema propio
-
-*(Borra esta sección si usas un tema descargado.)*
-
-Cómo instalar mi tema en un WordPress limpio:
-
-1. **Descarga el tema:** (de dónde se baja el `.zip`, por ejemplo la carpeta `proyecto/mi-tema/` comprimida o un *Release* de este repo).
-2. **Instálalo:** en WordPress, **Apariencia > Temas > Añadir nuevo > Subir tema**, elige el `.zip` y pulsa **Instalar ahora**.
-3. **Actívalo:** pulsa **Activar**.
-4. **Configura la portada:** **Ajustes > Lectura > Una página estática** y elige tu página de inicio.
-5. **Crea el menú:** **Apariencia > Menús**, con tus páginas, y asígnalo a «Menú principal».
-6. **Instala los plugins** que necesita (ver tabla de abajo).
-7. **Crea las páginas y entradas** (ver más abajo).
-
-Qué debe tener el servidor: (versión de WordPress y de PHP con que probaste tu tema).
 
 ---
 
