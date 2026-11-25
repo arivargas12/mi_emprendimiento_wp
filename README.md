@@ -1,9 +1,9 @@
-# [Nombre de tu emprendimiento] · Sitio WordPress
+# LUMÉ · Sitio WordPress
 
 > **Este README es tuyo.** Complétalo mientras construyes tu sitio y borra las instrucciones entre paréntesis. Las instrucciones del proyecto están en [`indicaciones/README.md`](indicaciones/README.md).
 
-- **Sitio en producción:** (URL de InfinityFree)
-- **Prototipo en Stitch:** (enlace)
+- **Sitio en producción:** https://lume.infinityfree.me
+- **Prototipo en Stitch:** 
 - **Repo del Parcial 02:** (enlace a `mi-emprendimiento`)
 - **Autor/a:** (nombre y sección)
 
