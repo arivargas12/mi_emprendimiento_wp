@@ -16,12 +16,6 @@ LUMÉ es un emprendimiento de velas aromáticas bonitas y de buena calidad para 
 
 Tema descargado: Twenty Twenty-Five
 
-- Tipo: tema de bloques.
-- Versión de WordPress utilizada: versión 7.1.5.
-- Plugins que necesita: Contact Form 7.
-- Licencia: gratuita, GPL.
-
-
 ---
 
 ## Instrucciones si uso un tema descargado
@@ -30,15 +24,18 @@ Tema descargado: Twenty Twenty-Five
 
 ### Requisitos del tema
 
+## Requisitos del tema
+
 | Dato | Mi tema |
 |---|---|
-| Nombre y enlace a la ficha | |
-| Gratis o de pago | |
-| Tipo (clásico o de bloques) | |
-| Versión de WordPress que requiere | |
-| Versión de PHP que requiere | |
-| Plugins que necesita (si alguno) | |
-| Licencia | |
+| Nombre y enlace a la ficha | Twenty Twenty-Five — tema oficial de WordPress |
+| Gratis o de pago | Gratis |
+| Tipo (clásico o de bloques) | De bloques |
+| Versión de WordPress que requiere | WordPress 7.1.5 |
+| Versión de PHP que requiere | PHP 8.4.28 |
+| Plugins que necesita (si alguno) | Ninguno obligatorio |
+| Licencia | GPL |
+
 
 ### Cómo llevar mi sitio de Local a producción
 
