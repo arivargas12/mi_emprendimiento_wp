@@ -37,58 +37,84 @@ Tema descargado: Twenty Twenty-Five
 | Licencia | GPL |
 
 
-### Cómo llevar mi sitio de Local a producción
+## Cómo llevar mi sitio de Local a producción
 
-Explica cómo exportas los datos de tu sitio en Local WP y los importas en producción (InfinityFree) con un plugin. Completa:
+### Plugin de migración
 
-- **Plugin de migración que uso:** (nombre y enlace a su ficha). Gratis o de pago: (...). Límites que tiene: (por ejemplo, tamaño máximo de importación).
-- **Qué se exporta:** (entradas, páginas, imágenes, menús, configuración).
+Plugin de migración que uso: All-in-One WP Migration and Backup  
+Ficha oficial: https://wordpress.org/plugins/all-in-one-wp-migration/  
+Costo: versión gratuita, con extensiones de pago disponibles.  
+Límites: la versión gratuita tiene un límite de importación que puede depender de la versión instalada y de la configuración del servidor. En mi caso, el tamaño también está limitado por InfinityFree y por los recursos disponibles del hosting.
 
-Pasos:
+### Qué se exporta
 
-1. **En Local:** (cómo exportas, con el plugin).
-2. **En producción:** (instalas un WordPress limpio, instalas el mismo plugin y el mismo tema).
-3. **Importa:** (cómo cargas el archivo que exportaste).
-4. **Revisa:** enlaces permanentes, menú, página de inicio, imágenes y formulario de contacto.
-5. **Problemas que tuve y cómo los resolví:** (...).
+El archivo de migración incluye las páginas, entradas, imágenes, menús, configuraciones, tema, plugins y demás archivos necesarios del sitio WordPress.
+
+### Pasos
+
+1. **En Local:** instalé y activé All-in-One WP Migration. Luego seleccioné la opción de exportar el sitio y descargué el archivo generado en formato `.wpress`.
+
+2. **En producción:** instalé un WordPress limpio en InfinityFree. Después instalé y activé All-in-One WP Migration, junto con el tema Twenty Twenty-Five y el plugin Contact Form 7.
+
+3. **Importación:** entré a All-in-One WP Migration → Importar, seleccioné el archivo `.wpress` exportado desde Local y esperé a que terminara el proceso. Después guardé nuevamente los enlaces permanentes e inicié sesión otra vez en WordPress.
+
+4. **Revisión:** comprobé que funcionaran los enlaces permanentes, el menú principal, la página de inicio, las imágenes, el tema, las páginas del sitio y el formulario de contacto.
+
+5. **Problemas que tuve y cómo los resolví:** durante la revisión, InfinityFree mostró algunas limitaciones del hosting, como errores 500, 429, problemas de API REST, loopback y el aviso de conexión no completamente segura. El sitio continuó visible en producción. El envío del formulario quedó pendiente de revisión porque el hosting gratuito puede limitar el correo; como alternativa, se puede configurar SMTP o migrar el sitio a un hosting profesional.
 
 ---
 
 ## Respaldo y reinstalación en otro servidor
 
-El objetivo de este proyecto es que puedas **respaldar tu sitio y reinstalarlo en cualquier servidor**. Explícalo para que otra persona pueda seguir tus pasos.
+El respaldo permite conservar los archivos y la base de datos del sitio para poder reinstalarlo en otro servidor si es necesario.
 
-**Qué respaldar:**
+### Qué respaldar
 
-- Los archivos de WordPress (tema, plugins, imágenes subidas).
-- La base de datos (páginas, entradas, menús, configuración).
+Se deben respaldar los archivos de WordPress, incluyendo el tema Twenty Twenty-Five, los plugins instalados y las imágenes subidas a la biblioteca multimedia. También se debe respaldar la base de datos, porque contiene las páginas, entradas, menús, configuraciones y usuarios del sitio.
 
-**Cómo respaldo mi sitio:** (plugin o método que usas, por ejemplo BackWPup o tu plugin de migración; dónde queda el archivo; cada cuánto lo haces).
+### Cómo respaldo mi sitio
 
-**Cómo lo reinstalo en un servidor nuevo:**
+Utilizo el plugin All-in-One WP Migration and Backup. En WordPress entro a All-in-One WP Migration → Exportar, selecciono Exportar a → Archivo y descargo el archivo `.wpress` generado.
 
-1. **Requisitos del servidor:** (versión de PHP, de MySQL y de WordPress; espacio necesario).
-2. **Instalar WordPress limpio:** (cómo).
-3. **Restaurar el respaldo:** (cómo lo cargas con tu plugin).
-4. **Ajustar:** (enlaces permanentes, URL del sitio, menú y página de inicio).
-5. **Probar:** (qué revisas para saber que quedó bien: sitio, imágenes, formulario de contacto con un mensaje de prueba).
+Guardo el archivo en una ubicación segura, además de conservar una copia del repositorio del proyecto. Realizaría un respaldo antes de cambios importantes y, mientras el sitio sea pequeño, al menos una vez al mes.
 
-**Problemas que tuve y cómo los resolví:** (...)
+### Cómo lo reinstalo en un servidor nuevo
+
+1. **Requisitos del servidor:** el servidor debe ser compatible con WordPress, PHP y una base de datos MySQL o MariaDB. También debe contar con espacio suficiente para los archivos, las imágenes y el respaldo `.wpress`. Utilizaría las versiones de PHP, WordPress y base de datos compatibles con el sitio original.
+
+2. **Instalar WordPress limpio:** creo una base de datos en el servidor nuevo e instalo una copia limpia de WordPress. Después ingreso al panel de administración e instalo el tema Twenty Twenty-Five y el plugin All-in-One WP Migration and Backup.
+
+3. **Restaurar el respaldo:** entro a All-in-One WP Migration → Importar, selecciono el archivo `.wpress` y espero a que termine la importación. Luego vuelvo a iniciar sesión y guardo dos veces los enlaces permanentes en Ajustes → Enlaces permanentes.
+
+4. **Ajustar el sitio:** reviso la URL del sitio, la página de inicio, el menú principal, los enlaces permanentes, el tema activo, los plugins y las imágenes. También compruebo que la página Contacto contenga el shortcode de Contact Form 7.
+
+5. **Probar:** abro la página de inicio y las demás páginas, reviso las imágenes, pruebo la navegación en celular y envío un mensaje de prueba desde Contacto. También compruebo si aparece el mensaje de confirmación y si el correo llega a la dirección configurada.
+
+
 
 ## Plugins instalados
 
 | Plugin | Para qué lo uso | Gratis o de pago | Versión |
 |---|---|---|---|
-| (SEO) | | | |
-| (Contacto) | | | |
-| | | | |
-| | | | |
-| | | | |
+| Contact Form 7 | Crear y mostrar el formulario de contacto de la página Contacto | Gratis | 6.2.6 |
+| Loginizer | Proteger el acceso a WordPress contra intentos de fuerza bruta | Gratis | 2.1.2 |
+| Loginizer Pro | Añadir funciones avanzadas de seguridad para el inicio de sesión | Pro | 2.1.2 |
+| W3 Total Cache | Mejorar el rendimiento del sitio mediante caché y optimización | Gratis | 2.11.0 |
+
+No tengo un plugin SEO instalado en esta etapa.
 
 ## Páginas y entradas
 
-- **Páginas:** (las 5 de la fase 1)
-- **Entradas del blog:** (títulos de tus 3 entradas)
+- **Páginas:**
+  - Inicio
+  - Nosotros
+  - Contacto
+  - Blog
+
+- **Entradas del blog:**
+  - Velas personalizadas para ocasiones especiales
+  - Cómo elegir el aroma ideal para tu espacio
+  - Beneficios de las velas artesanales
 
 ## Cómo me organicé
 
