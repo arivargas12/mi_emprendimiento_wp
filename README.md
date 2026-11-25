@@ -120,11 +120,9 @@ No tengo un plugin SEO instalado en esta etapa.
 
 Mi plan y mi plan B están en [`decisiones.md`](proyecto/decisiones.md).
 
-Durante el desarrollo mantuve la identidad visual y la estructura general de LUMÉ. Algunos plugins quedaron planificados para una fase posterior, mientras que el formulario de contacto y las funciones principales del sitio se implementaron en la etapa actual.
-
 ## Plan de continuidad y rendimiento
 
-- **Plan de continuidad (etapa 2 de mi web):** [`plan-de-continuidad.md`](proyecto/plan-de-continuidad.md)
+- **Plan de continuidad:** [`plan-de-continuidad.md`](proyecto/plan-de-continuidad.md)
 - **Análisis de rendimiento con Lighthouse:** [`lighthouse.md`](proyecto/lighthouse.md)
 
 ## Uso de IA
