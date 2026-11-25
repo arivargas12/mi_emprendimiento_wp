@@ -125,6 +125,11 @@ Mi plan y mi plan B están en [`decisiones.md`](proyecto/decisiones.md).
 - **Plan de continuidad:** [`plan-de-continuidad.md`](proyecto/plan-de-continuidad.md)
 - **Análisis de rendimiento con Lighthouse:** [`lighthouse.md`](proyecto/lighthouse.md)
 
-## Uso de IA
+### Herramienta utilizada
 
-- **(Herramienta):** para qué la usé y qué ajusté yo.
+- **ChatGPT:** se utilizó como apoyo para planificar la estructura del sitio, redactar y corregir contenidos, organizar los archivos Markdown, documentar el plan de continuidad y analizar los resultados de Lighthouse.
+
+### Ajustes realizados por mí
+
+Revisé y modifiqué las respuestas generadas por la IA para que coincidieran con el proyecto real. También seleccioné los contenidos definitivos, adapté el tono de comunicación de LUMÉ, publiqué las páginas y entradas en WordPress, configuré los plugins y comprobé el funcionamiento del sitio.
+
