@@ -35,13 +35,14 @@
 
 ## 3. PLAN DEL TEMA
 
-LUMÉ
+### LUMÉ
 
-### Tipo de tema
+#### Tipo de tema
 
-Tema propio (Custom Theme).
+Tema descargado: Twenty Twenty-Five, tema oficial de WordPress y de bloques.
 
-Elegí desarrollar un tema propio para adaptar el diseño a la identidad visual de LUMÉ, utilizando colores cálidos, tipografías elegantes y elementos relacionados con las velas aromáticas, la decoración y el bienestar del hogar.
+Se eligió este tema porque permite crear el sitio mediante bloques de WordPress y facilita la organización de las páginas, el blog, el menú y los contenidos de LUMÉ. La identidad visual se adaptó mediante los colores, las tipografías, las imágenes y la distribución del contenido.
+
 
 ### Carta Gantt
 
