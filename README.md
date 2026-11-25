@@ -3,7 +3,7 @@
 > **Este README es tuyo.** Complétalo mientras construyes tu sitio y borra las instrucciones entre paréntesis. Las instrucciones del proyecto están en [`indicaciones/README.md`](indicaciones/README.md).
 
 - **Sitio en producción:** https://lume.infinityfree.me
-- **Prototipo en Stitch:** 
+- **Prototipo en Stitch:** https://stitch.google.com/projects/5380580207788885438
 - **Repo del Parcial 02:** (enlace a `mi-emprendimiento`)
 - **Autor/a:** (nombre y sección)
 
