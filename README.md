@@ -118,7 +118,9 @@ No tengo un plugin SEO instalado en esta etapa.
 
 ## Cómo me organicé
 
-Mi plan y mi plan B están en [`decisiones.md`](proyecto/decisiones.md) (si haces tema propio, está en `proyecto/documentacion/`). (Si cambiaste de rumbo, cuéntalo aquí en una o dos líneas.)
+Mi plan y mi plan B están en [`decisiones.md`](proyecto/decisiones.md).
+
+Durante el desarrollo mantuve la identidad visual y la estructura general de LUMÉ. Algunos plugins quedaron planificados para una fase posterior, mientras que el formulario de contacto y las funciones principales del sitio se implementaron en la etapa actual.
 
 ## Plan de continuidad y rendimiento
 
